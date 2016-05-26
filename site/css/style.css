@@ -24,7 +24,7 @@
 	.recipe{
 		background-color: darkgray;
 		border: solid black 1px;
-		float:right;
+		float:left;
 	}
 	
 	.recipe_title{
