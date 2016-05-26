@@ -1,0 +1,86 @@
+<style type="text/css">
+
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		font-family: "Oswald", Helvetica, Arial, sans-serif!important; /*set a font-family for the text in your page*/
+		font-size: 20px;
+	}
+
+	h1{
+		font-size:1.75em;  /*set the font size of the heading to be 75% larger than the font size of the dummy text.*/
+	}
+	
+	p{
+		padding:10px;
+		clear:both;
+	}
+
+	#Page_title{
+       text-align: center;
+	}
+	
+	.recipe{
+		background-color: darkgray;
+		border: solid black 1px;
+		float:right;
+	}
+	
+	.recipe_title{
+		text-align: center;
+
+		border: solid black 1px;
+		font-size:1.25em;  /*set the font size of the section title 25% larger (respectively) than the font size of the dummy text.*/
+		width: 150px;
+		float: right;
+	}
+	
+	.dummy_text{
+		clear:right;		
+	}
+
+	#title_chicken{ 
+		background-color:  #DDA3AA;}
+	#title_beef{
+		background-color:  #C04642; 
+		color:white;} 
+	#title_sushi{
+		background-color:  #E6D19B;}	
+
+
+
+
+	@media (min-width: 992px) 
+	{
+		.recipe{
+			margin: 20px;
+			width: calc(33% - 40px);
+		}
+
+	}
+	
+	@media (min-width: 768px) and (max-width: 991px) 
+	{
+		.recipe{
+			margin: 10px;
+			width: calc(49.5% - 20px);
+		}
+		#recipe_sushi{
+			width: calc(99% - 20px);
+		}
+	}
+
+	@media (max-width: 767px) 
+	{
+		.recipe{
+			margin-top: 20px;
+			margin-left: 40px;
+			margin-right: 40px;
+			width: calc(100% - 80px);
+		}
+	}
+
+
+
+</style>
